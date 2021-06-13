@@ -1,0 +1,83 @@
+@import "colors";
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background-image: url("/images/bg-desktop.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: $violet;
+    max-width: 1440px;
+    padding: 10px 40px 0 40px;
+    margin: 0 auto;
+}
+
+main {
+    margin: 0 auto;
+}
+
+.content {
+    color: white;
+    display: flex;
+    margin-top: 30px;
+    div {
+        h1 {
+            font-size: 36px;
+        }
+        p {
+            font-family: 'Open Sans', sans-serif;
+            font-size: 20px;
+            margin: 24px 0 24px 0;
+            width: 93%;
+            line-height: 1.5em;
+        }
+
+        a {
+            display: inline-block;
+            padding: 1em 3.5em;
+            margin-top: 15px;
+            background-color: white;
+            color: $violet;
+            text-decoration: none;
+            border-radius: 40px;
+            &:hover{
+                color: white;
+                background-color: $softmagenta;
+            }
+        }
+    }
+}
+
+.caption {
+    margin-left: 36px;
+}
+
+footer {
+    display: flex;
+    justify-content: flex-end;
+    margin: 12px 0 36px 0;
+    svg {
+        display: inline-block;
+        height: 40px;
+        width: 40px;
+        margin: 5px;
+        padding: 8px;
+        border-radius: 50%;
+        border: 2px white solid;
+
+        &:hover{
+            border: 2px $softmagenta solid;
+
+            path {
+                fill: $softmagenta;
+            }
+            
+        }
+    }
+}

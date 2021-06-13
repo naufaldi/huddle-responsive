@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background-image: url("/images/bg-desktop.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: #674baf;
+  max-width: 1440px;
+  padding: 10px 40px 0 40px;
+  margin: 0 auto;
+}
+
+main {
+  margin: 0 auto;
+}
+
+.content {
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 30px;
+}
+
+.content div h1 {
+  font-size: 36px;
+}
+
+.content div p {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+  margin: 24px 0 24px 0;
+  width: 93%;
+  line-height: 1.5em;
+}
+
+.content div a {
+  display: inline-block;
+  padding: 1em 3.5em;
+  margin-top: 15px;
+  background-color: white;
+  color: #674baf;
+  text-decoration: none;
+  border-radius: 40px;
+}
+
+.content div a:hover {
+  color: white;
+  background-color: #e882e8;
+}
+
+.caption {
+  margin-left: 36px;
+}
+
+footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  margin: 12px 0 36px 0;
+}
+
+footer svg {
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+  margin: 5px;
+  padding: 8px;
+  border-radius: 50%;
+  border: 2px white solid;
+}
+
+footer svg:hover {
+  border: 2px #e882e8 solid;
+}
+
+footer svg:hover path {
+  fill: #e882e8;
+}
+/*# sourceMappingURL=style.css.map */
