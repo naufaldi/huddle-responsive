@@ -16,7 +16,8 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     background-color: $violet;
-    max-width: 1440px;
+    width:100%;
+//     max-width: 1440px;
 }
 
 header {
@@ -43,6 +44,36 @@ main {
 .content {
     color: white;
     display: flex;
+    max-width: 1440px;
+    margin: 0 auto;
+    &--image{
+         margin-right: 30px;
+    }
+    &--caption{
+        h1 {
+        font-size: 36px;
+    }
+    p {
+        font-family: 'Open Sans', sans-serif;
+        font-size: 20px;
+        margin: 24px 0 24px 0;
+        width: 93%;
+        line-height: 1.5em;
+    }
+    a {
+        display: inline-block;
+        padding: 1em 3.5em;
+        margin-top: 15px;
+        background-color: white;
+        color: $violet;
+        text-decoration: none;
+        border-radius: 40px;
+        &:hover{
+            color: white;
+            background-color: $softmagenta;
+        }
+    }
+    }
 }
 
 .content--image {
